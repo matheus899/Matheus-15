@@ -1,0 +1,41 @@
+.cabecalho{
+
+    background-color: var(--fundo-azul);
+    margin: 0;
+}
+.constainer{
+    display: flex;aling-itens: center;
+}
+
+.continer__imagem{
+width: 45px; height: 45px
+
+}
+
+.container__titulo, .container__imagem, .conatiner__frase{
+    padding: 0.1em; color: white;
+}
+.container__titulo, .conatiner__frase{
+    display: none;
+}
+.cx-texto{
+    display: flex; justify-content: center;
+
+}
+.texto-mobile{
+display: block; font: size 30px;
+margin-top: 3em; padding: 1em;
+
+}
+.texto-desktop, .texto-tablet{
+display: none;
+
+}
+@media  screen and (min-width: 820px) {
+    .container__titulo{
+        font-size: 30px; display: inline-block
+    }
+
+
+    
+}
