@@ -3,19 +3,19 @@
     background-color: var(--fundo-azul);
     margin: 0;
 }
-.constainer{
-    display: flex;aling-itens: center;
+.container{
+    display: flex;align-items: center;
 }
 
-.continer__imagem{
+.container__imagem{
 width: 45px; height: 45px
 
 }
 
-.container__titulo, .container__imagem, .conatiner__frase{
+.container__titulo, .container__imagem, .container__frase{
     padding: 0.1em; color: white;
 }
-.container__titulo, .conatiner__frase{
+.container__titulo, .container__frase{
     display: none;
 }
 .cx-texto{
