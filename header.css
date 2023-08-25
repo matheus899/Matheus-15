@@ -35,5 +35,45 @@ display: none;
     .container__titulo{
         font-size: 30px; display: inline-block
     }
-    .container
+    .container__titulo{
+font-weight: 400;
+
+    }
+.texto-tablet{
+ display: block;font-size: 30px;color: white;
+ margin-top: 3em;padding: 1em;
+
+}
+.texto-desktop, .texto-mobile{
+
+display: none;
+
+}
+
+
+}
+@media screen and (min-width: 1728px) {
+.container__frase{
+
+    font-size: 30px;
+    display: inline-block;
+}
+ 
+.container__frase{
+
+    font-size: 400;
+    padding-left: 5em;
+}
+ .texto-desktop{
+
+display: block;
+font-size: 30px;
+color: var(--lilas);
+margin-top: 3em;
+padding: 1em;
+ }
+.texto-tablet, .texto-mobile{
+    display: none;
+}
+
 }
